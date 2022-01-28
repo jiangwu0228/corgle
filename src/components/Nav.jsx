@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import Results from "./Results";
 
-const routesConfig = [
+export const routesConfig = [
   { path: "/", exact: "exact", component: <Navigate to="/search" /> },
   { path: "/search", exact: "exact", component: <Results /> },
   { path: "/images", exact: "", component: <Results /> },

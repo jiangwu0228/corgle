@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
 const Footer = () => {
-    return (
-        <div>
-            <h1>Footer</h1>
-        </div>
-    );
-}
+  return (
+    <div className="text-center p-10 mt-10 border-t dark:border-gray-700 border-gray-200">
+      © 2021 Crogle, Inc.
+    </div>
+  );
+};
 
 export default Footer;
